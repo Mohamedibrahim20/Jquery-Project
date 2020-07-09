@@ -1,0 +1,156 @@
+.home{
+    background-image: url("../images/events-heavenly-header.jpg");
+    height: 650px; 
+    background-size: 100% 100%; 
+position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    
+   
+}
+.caption{
+    color: #fff;
+
+    height: 100%;
+    width: 100%;
+
+   
+   
+    
+}
+.caption h1{
+ font-size: 2.8rem;
+    
+}
+.sideNav{
+    
+     height: 100%;
+   left: -227.875px;
+     position: absolute;
+     
+   
+     
+  
+ }
+
+#nav{
+    height: 100%;
+
+position: fixed;
+background-color: #414658;
+width:227.875px;
+z-index:9;
+display: flex;
+flex-direction: column;
+
+
+}
+.openNav{
+
+position: absolute;
+top: 50%;
+left: 0;
+z-index: 99;
+  color: #FFF;
+  float: right;
+ 
+}
+.nav .closeBtn{
+
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    }
+.nav a{
+
+    text-decoration: none;
+    padding: 20px 8px 20px 32px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    display: block;
+    transition: all .5s;
+}
+.nav a:hover{
+
+    color:#D62E33;
+}
+.Details {
+    background-color: rgba(214, 46, 51 , 0.6);
+width: 50%;
+    margin: auto;
+   
+
+
+    text-align: center;
+}
+.Details h3{
+    padding: 10px;
+    font-weight: lighter;
+
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.Details .singerCap{
+    background-color:#ccc;
+    font-size: 14px;
+  display: none;
+    
+}
+.Duration{
+    
+height:330px;
+    background-image: url("../images/invitation-2508607__340.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.overlay-Du{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+    width: 100%;
+
+}
+.date{
+    
+    border: solid 2px #fff;
+    padding: 50px;
+    font-size: 24px;
+    color: #fff;   
+    text-align: center;
+}
+p{
+ color: #777777;
+    text-align: center;
+}
+.fa-lg{
+  
+    color:#777777 ;
+  padding: 10px ;
+  margin-right: 10px;
+
+    border: solid #777777 1px ;
+    transition: all ;
+    cursor: pointer;
+}
+.fa-lg:hover{
+    color: #fff;
+    background-color: #D62E33;
+}
+span{
+    color: #D62E33;
+}
+
